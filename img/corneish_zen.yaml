@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   L1:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -12,19 +12,19 @@ layers:
   - I
   - O
   - P
-  - $$mdi:close-box$$
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - A
   - S
   - D
-  - F
+  - {t: F, h: '1'}
   - G
   - H
-  - J
+  - {t: J, h: '1'}
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-esc$$
   - {t: Fn, h: '$$mdi:close-box$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
@@ -37,12 +37,12 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
