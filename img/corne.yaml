@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: '1'}
+  - {t: F, h: L2}
   - G
   - H
-  - {t: J, h: '1'}
+  - {t: J, h: L2}
   - K
   - L
   - {t: '''', s: '"'}
@@ -38,10 +38,10 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -60,10 +60,10 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '9', s: (, type: held}
   - {t: '0', s: )}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-down-bold$$', type: held}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
