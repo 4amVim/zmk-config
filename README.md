@@ -2,67 +2,9 @@
 
 Knucklehead is a mnemonic, macOS-optimized, 42[^1] key ergo columnar keyboard layout, designed[^2] to ease the transition [back-and-forth] between corne-style and Apple-style keyboards.
 
----
+<img src="img/corneish_zen.svg" width="100%" />
+<img src="img/corne.svg" width="100%" />
 
-> [!WARNING]\
-> Under **_active development_**, expect changes. Scarce/incomplete documentation. Use at your own risk.
-
-> [!NOTE]\
-> This layout was primarily **designed for [Colemak-DH](https://colemakmods.github.io/mod-dh/)** and influenced by decades of muscle memory using ANSI Apple keyboards.
->
-> By request I've started working on other alpha layouts, such as:
->
-> - [QWERTY](/minusfive/zmk-config/tree/QWERTY)
-> - [Colemak](/minusfive/zmk-config/tree/Colemak)
->
-> But keep in mind that while many of the mnemonic affordances will work well regardless of layout, many others will be "lost in translation".
-
----
-
-<img src="img/corneish_zen.svg" alt="minusfive's keymap layout graphical representation" width="100%" />
-
-![minusfive's Corne-ish Zen](img/corneish_zen.png)
-
-> Drawn with [Keymap Drawer](/caksoylar/keymap-drawer)
-
-## Legend
-
-| Symbol | Key Name                                                      |
-| :----: | ------------------------------------------------------------- |
-|   ⌃    | Control                                                       |
-|   ⌥    | Option                                                        |
-|   ⌘    | Command                                                       |
-|   ⇧    | Shift                                                         |
-|   ⇪    | Caps Lock                                                     |
-|   ▲    | ⌃⌥⇧ at once (a.k.a. "Meh")                                    |
-|   ⌫    | Backspace                                                     |
-|   ⌦    | Delete                                                        |
-|   ⏎    | Return                                                        |
-|   ⇥    | Tab                                                           |
-|   ␣    | Space                                                         |
-|  `w`   | [Smart `w`ord behavior](#smart-word-behaviors)                |
-|  `×`   | [E`x`it smart `w`ord behavior](#exiting-smart-word-behaviors) |
-|  `L1`  | Layer 1                                                       |
-|  `L2`  | Layer 2                                                       |
-|  `Fn`  | Function Layer                                                |
-
-<!--  | ⌽         | power       | -->
-<!--  | ⏏         | eject       | -->
-<!--  | ⌤         | enter       | -->
-<!--  | ⇭         | num lock    | -->
-<!--  | ⇱         | home        | -->
-<!--  | ⇲         | end         | -->
-<!--  | ⇞         | page up     | -->
-<!--  | ⇟         | page down   | -->
-<!--  | ↑         | up arrow    | -->
-<!--  | ⇡         | up arrow    | -->
-<!--  | ↓         | down arrow  | -->
-<!--  | ⇣         | down arrow  | -->
-<!--  | ←         | left arrow  | -->
-<!--  | ⇠         | left arrow  | -->
-<!--  | →         | right arrow | -->
-<!--  | ⇢         | right arrow | -->
-<!--  | ⌧         | clear       | -->
 
 ## Features
 
@@ -198,22 +140,7 @@ A 4th `Meh` modifier is added to the cluster which corresponds to pressing `Cont
 
 ---
 
-## F.A.Q.s
 
-#### Why "Knucklehead"?
-
-While searching for mnemonic-related names I saw the primary image on the [Wikipedia article for "mnemonic"](https://en.wikipedia.org/wiki/Mnemonic) (a representation of the [Knuckle mnemonic](https://en.wikipedia.org/wiki/Knuckle_mnemonic)), and it occurred to me it'd be a relevant and **_funny_** name (like a slightly more rude version of "a layout for dummies").
-The fact that the combos kind of resemble knuckles is just another happy coincidence. Ehrm… I mean, _totally planned_.
-
-#### Why no "home row mods"?
-
-- I wanted to keep them in the same position across layers without dictating the position of nor interfering with other typically held keys (e.g. arrows).
-- I wanted to diminish their interference with normal/fast typing without over-complicating their implementation, timing configuration, etc. Putting them on "less used" keys helps.
-- Decades of muscle memory for I don't know how many shortcuts across who knows how many apps had me unconsciously reaching for those positions anyway.
-- I feel like the deliberate, paused, "non-rolly" way I tend to use mods makes home position unnecessary.
-- While they don't eliminate hand movement like HMRs, on this new position they still greatly minimize movement/effort, improve comfort when compared to their traditional Apple keyboard position, with the added benefit of leveraging some of your muscle memory.
-
----
 
 ## Resources
 
