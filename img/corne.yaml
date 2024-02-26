@@ -38,8 +38,8 @@ layers:
   - {t: /, s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - {t: '$$mdi:arrow-up-bold$$', h: RGUI}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:star-three-points$$'}
