@@ -2,7 +2,6 @@
 
 Knucklehead is a mnemonic, macOS-optimized, 42[^1] key ergo columnar keyboard layout, designed[^2] to ease the transition [back-and-forth] between corne-style and Apple-style keyboards.
 
-<img src="img/corneish_zen.svg" width="100%" />
 <img src="img/corne.svg" width="100%" />
 
 

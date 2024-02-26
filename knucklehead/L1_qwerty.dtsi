@@ -16,7 +16,7 @@
     &csl Fn         &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &csl Fn
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                  36              37              38                  39              40              41
-                                                    &mt RGUI UP     &mt LCTRL ENTER &mt RSHFT BSPC      &mt LSHFT SPACE &mt RCTRL ENTER &mt MEH DOWN
+                                                    &mt RGUI UP     &mt RCTRL BSPC  &mt LSHFT ENTER     &mt RCTRL SPACE &mt LSHFT DELETE &mt MEH DOWN
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
